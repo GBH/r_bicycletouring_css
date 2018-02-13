@@ -13,6 +13,55 @@
     Add your customizations and addons below!
 -------------------------------------------------------------------------- */
 
+/* removing side image */
+.side {
+  margin-top: 202px;
+}
+.side::before {
+  content: none;
+}
+/*#search,
+.morelink,
+.side .titlebox h1.redditname,
+.subscribers,
+.titlebox .fancy-toggle-button {
+  margin-top: -80px;
+}
+*/
+/* header */
+#sr-header-area {
+  background: rgba(255, 255, 255, 0.2);
+}
+#sr-header-area .sr-bar a,
+#sr-more-link,
+#sr-header-area .separator,
+#sr-header-area .dropdown.srdrop .selected {
+  color: rgba(255, 255, 255, 0.8);
+}
+#header-bottom-left {
+  top: 94px;
+}
+#header .pagename a {
+  vertical-align: middle;
+}
+#header .tabmenu {
+  margin-top: 0px;
+}
+
+/* logo */
+#header-img.default-header, #header-img {
+  background: url(%%logo%%) no-repeat 0px 0px;
+  padding-left: 100px;
+  height: 60px;
+  vertical-align: middle;
+}
+#header-img.default-header:hover, #header-img:hover {
+  background-position: 0px 0px;
+}
+
+
+
+/* Flairs. TODO: Fix and format */
 .flair-onTour { position: relative; margin-left: 5.5em; }
 .flair-onTour:before { content: "On Tour"; background: #FFCF3F; border: 1px solid #C99700; position: absolute; left: -5.5em; padding: 0 0.25em; top: -1px; border-radius: 2px; }
 
@@ -30,12 +79,12 @@
 .flair-10k:before { content: "10k"; background: #8CDCEA; border: 1px solid #2C6B99; }
 .flair-20k:before { content: "20k"; background: #EA8C8C; border: 1px solid #992C2F; }
 
+
+/* TODO: Fix or remove
 .thing .title.loggedin { color: #0B65AA; }
 .thing .title.loggedin.click { color: #673F7C; }
 
 .link { margin-top: 3px; margin-bottom: 3px; padding: 4px; }
-
-#header-img { position: relative; top: 3px; }
 
 .tabmenu { overflow: hidden; padding: 8px 8px 2px; }
 .tabmenu li a { border-top-left-radius: 6px; border-top-right-radius: 6px; padding: 3px 7px; }
@@ -44,9 +93,10 @@
 
 .side .usertext-body strong { display:block; margin: 10px 0; padding: 10px 0; border-top: 1px solid #CCC; border-bottom: 1px solid #CCC; font-size: 18px; }
 
-#text-field .title:after { content: ": please read our FAQ to see if your question has already been answered before submitting."; }
 
 body.wiki-page .wiki-page-content .md.wiki h1 { font-size: 1.8em; }
 body.wiki-page .wiki-page-content .md.wiki h2 { font-size: 1.5em; margin-bottom: 0.75em; }
 body.wiki-page .wiki-page-content .md.wiki h3 { font-size: 1.2em; }
 body.wiki-page .wiki-page-content .md.wiki h4 { font-size: 1em; }
+
+*/
