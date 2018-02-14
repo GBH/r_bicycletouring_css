@@ -13,24 +13,26 @@
     Add your customizations and addons below!
 -------------------------------------------------------------------------- */
 
-/* removing side image */
+/* undoing crazy sidebar positioning nonsense */
 .side {
-  margin-top: 202px;
+  margin-top: 16px;
 }
 .side::before {
   content: none;
 }
-/*#search,
-.morelink,
-.side .titlebox h1.redditname,
-.subscribers,
-.titlebox .fancy-toggle-button {
-  margin-top: -80px;
-}
-*/
+
 /* header */
+#header {
+  height: 150px;
+}
 #sr-header-area {
   background: rgba(255, 255, 255, 0.2);
+}
+#sr-header-area:hover {
+  background: rgba(0, 0, 0, 0.3)
+}
+#sr-header-area .width-clip {
+  right: 0;
 }
 #sr-header-area .sr-bar a,
 #sr-more-link,
@@ -39,7 +41,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 #header-bottom-left {
-  top: 94px;
+  top: 58px;
 }
 #header .pagename a {
   vertical-align: middle;
@@ -51,8 +53,8 @@
 /* logo */
 #header-img.default-header, #header-img {
   background: url(%%logo%%) no-repeat 0px 0px;
-  padding-left: 100px;
-  height: 60px;
+  padding-left: 85px;
+  height: 50px;
   vertical-align: middle;
 }
 #header-img.default-header:hover, #header-img:hover {
