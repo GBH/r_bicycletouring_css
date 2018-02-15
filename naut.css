@@ -391,12 +391,12 @@ body:not(.loggedin) #header-bottom-right {
     }
 
 /* Tabmenu - Hot / New / Top */
-#header-bottom-left {
+/*#header-bottom-left {
     position: absolute;
     top: 100px;
     left: 16px;
     right: 384px;
-}
+}*/
 
 #header .tabmenu {
     margin: 12px 0 0;
@@ -2432,9 +2432,9 @@ div.titlebox span.number:after {
         width: 100%;
     }
 
-.commentarea > .usertext textarea:not(:focus) {
+/*.commentarea > .usertext textarea:not(:focus) {
     background: url(%%commentboxbg%%) no-repeat 50% 50%;
-}
+}*/
 
 .usertext .bottom-area {
     width: 504px;
