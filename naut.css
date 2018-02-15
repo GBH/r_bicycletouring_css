@@ -2190,13 +2190,13 @@ div.titlebox span.number:after {
     margin: 0;
 }
 
-    .titlebox .tagline:after {
+/*    .titlebox .tagline:after {
         content: "";
         height: 2px;
         background: #f2f2f2;
         display: block;
         margin-top: 16px;
-    }
+    }*/
 
 .titlebox form.flairtoggle {
     line-height: 2;
