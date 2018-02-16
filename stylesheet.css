@@ -12,7 +12,14 @@
     End of Naut
     Add your customizations and addons below!
 -------------------------------------------------------------------------- */
-
+.thing .title.loggedin.click, 
+.thing .title.click, 
+.thing .title.loggedin, 
+.thing .title,
+.md a,
+a {
+  color: #0079d3;
+}
 .side {
   margin-top: 16px;
 }
